@@ -6,7 +6,7 @@ import 'weather-icons/css/weather-icons.css';
 import Form from './components/form';
 
 //api call : api.openweathermap.org/data/2.5/weather?q=London,uk;
-const API_KEY = "d4d0d338d1c7df0306c26d770e892420";
+const API_KEY = "d4d0d338d1c7df0306c26d770e******";
 
 class App extends Component {
   constructor() {
@@ -30,7 +30,7 @@ class App extends Component {
       Rain : "wi-storm-showers",
       Snow : "wi-snow",
       Atmosphere : "wi-fog",
-      Clear : "wi-dady-sunny",
+      Clear : "wi-day-sunny",
       Clouds : "wi-day-fog"
     }
   }
